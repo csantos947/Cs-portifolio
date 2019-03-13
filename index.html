@@ -1,0 +1,541 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <title>Portfolio - Camila Santos</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+     <!-- E-mail send js -->
+     <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  </head>
+
+  <body id="page-top">
+
+<script type="text/javascript">
+ 
+  
+ function mail(no,em,ph,me,as) { 
+    Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "milinha15zinho@gmail.com",
+    Password : "9316eb98-d288-46ee-bab0-c63a1a92ffc0",
+    To : 'camilasilva96@hotmail.com',
+    From :'camilasilva96@hotmail.com',
+    Subject : as,
+    Body : '<strong>Assunto do Email:</strong> '+ as +
+           '<br><strong>Nome:</strong> '+ no +
+           '<br><strong>Email: </strong>' + em +
+           '<br><strong>telefone :</strong> '+ ph +
+           '<br><br><strong>Mensagem:</strong><br> ' + me 
+    /*no + ph + em + me */
+})/*.then(
+  message => alert(message+'Obrigada!'));*/}
+
+function valores() {
+var n = document.getElementById("name").value;
+var e = document.getElementById("email").value;
+var p = document.getElementById("phone").value;
+var m = document.getElementById("message").value; 
+/*alert(e);*/
+var a = document.getElementById("assunto").value;
+mail(n,e,p,m,a);
+}
+
+</script>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Seja Bem-vindo!</a> 
+      <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Sobre</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container">
+        <img class="img-fluid mb-5 d-block mx-auto" src="img/eu.png" alt="" width="450px" height="450px">
+        <h1 class="text-uppercase mb-0" style="color:#2c3e50;">Camila Santos</h1>
+        <hr class="star-dark">
+        <h2 class="font-weight-light mb-0" style="color:#2c3e50;">UX/UI Designer & Web desenvolvedor</h2>
+      </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+        <hr class="star-dark mb-5">
+               Antes de visualizar os temas , por favor leia os <u>termos de uso</u>.<b style="color:red;font-weight: bold">(Portifolio em manutenção)</b><br>
+               <b style="font-weight:bold;">Front ends :</b>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/cvweb.gif" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/cvweb2.gif" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/empresati.gif" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/game.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/safe.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="about">
+      <div class="container">
+        <h2 class="text-center text-uppercase" style="color:#2c3e50">Sobre</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-lg-12 ml-auto" style="text-align: center">
+            <i class="fas fa-3x fa-folder-plus"></i>
+            <p class="lead" style="color:#2c3e50; text-align:justify; ">
+              Possuo cerca de três anos de experiência no segmento de Tecnologia da informação (T.I). Atualmente sou responsável em realizar suporte ao sistema (ERP) Oracle Peoplesoft campus solution.
+              Minhas atividades envolvem a sustentação/suporte da frente financeira do ERP, controle de acessos (atribuir e remover perfis de usuários), desenvolvimento de cenários de testes e auxilio em treinamentos internos.
+
+              Além das atividades relacionadas ao ERP Oracle Peoplesoft, realizo:
+
+              </p> </div>
+
+               <div class="col-lg-4 ml-auto" style="text-align: left">
+                <b style="font-weight: bold;">Websites</b><br>     
+                • Webdesigner<br>
+                • Briefing<br>
+                • Desenvolvimento de banners e logotipos
+               </div>
+                <div class="col-lg-4 ml-auto" style="text-align: left">
+                   <b style="font-weight: bold;"> Aplicações web</b><br>  
+                      • Integrações com banco de dados<br>
+                      • Modelagem de dados (UML)<br>
+                      • Levantamento de requisitos <br>
+                      • Personalização de templates <br>
+                      • Desenvolvimento\extração de relatórios
+               </div>
+
+               <br>
+              <div class="col-lg-12 ml-auto" style="text-align: left; margin-top: 20px;">
+              <p class="lead" style="color:#2c3e50; text-align:justify;">
+                Formada em análise e desenvolvimento de sistemas na instituição de ensino superior Faculdade metropolitanas unidas e 
+                Pós-graduada em banco de dados com foco em programação no centro universitário claretiano.<br>
+                <br>
+                Participante de eventos como Campus Party Brasil e MEX (Mercado livre Experience), ambos eventos voltados a inovação, tecnologia e empreendedorismo.
+              </p>
+              </div>
+              
+          <br>
+          <div class="col-lg-6 mr-auto" style="text-align: center;" style="color:#000;">
+            <i class="fas fa-3x fa-code"></i>
+            <p class="lead" style="color:#2c3e50;text-align:justify;">
+           <b style="font-weight: bold;"> Segue abaixo algumas habilidades no qual me destaco:</b><br>  
+            •Linguagens de marcação :<br>
+            (Html ,Css,Jquery,Javascript)<br><br>
+           •Programação :<br>
+            (C#,Java,SQL,PHP)<br><br>
+            •Frameworks :<br>
+          (Bootstrap, GitHub,Materialize)<br><br>
+          •Ferramentas:<br>
+          (ERP Peoplesoft Campus Solutions – Oracle , IBM Maximo Asset Management , Mysql , Sql server e Power BI)<br><br>
+          <b style="font-weight: bold;text-align: left;">Interesses:</b>
+          </p>
+          </div>
+		  <div class="col-lg-6 mr-auto" style="text-align: center;">
+            <i class="fas fa-3x fa-coffee"></i>
+            <p class="lead" style="color:#2c3e50;text-align:justify;"> 
+            <b style="font-weight: bold">O que eu faço no meu tempo livre?</b><br>
+            Bom , sou uma pessoa bastante dinamica e eclética quando trata-se dos meus hobbies , pois os mesmos evolvem (esportes , entreterimento e estudo).
+
+            Gosto de correr por que é uma das formas que consigo abrir minha mente e ter novas idéias , outro fato sobre mim é que amo jogar jogos de estratégia como tomb raider e de emoção como life is stranger onde nossas escolhas podem influenciar na história do jogo.
+
+            Acompanho algumas séries de ficção ciêntifica e fantasia, além de amar uma trilogia.
+
+            Nos dias mais intensos , escolho a dança para expressar minhas emoções e quando estou criativa costumo ilustrar e fazer desenhos.
+
+            Para me manter sempre atualizada , procuro ler blogges e livros relacionados a tecnologia e participo de eventos marcados pela comunidade de desenvolvedores no site met ups no qual faço networking quando tenho oportunidade.<br><br>
+
+            Ah! E meu estilo musical ? dependendo do meu humor vou do rock ao sertanejo.
+
+
+
+            </p>
+          </div>
+		  
+        </div>
+        <div class="text-center mt-4">
+          <a class="btn btn-xl btn-outline-light" href="https://drive.google.com/open?id=1mQderyv2nzheHOgZQcF9aQj8gOQE6sZG" target="_blank">
+            <i class="fas fa-download mr-2" style="color:#2c3e50"></i>
+            <label style="color:#2c3e50">Download CV!</label>
+          </a>
+           <a class="btn btn-xl btn-outline-light" href="https://csantos947.github.io/Curriculoweb/" target="_blank">
+            <i class="fas fa-link" style="color:#2c3e50"></i>
+            <label style="color:#2c3e50">CV web!</label>
+          </a>
+          <a class="btn btn-xl btn-outline-light" href="https://drive.google.com/open?id=1k6IybV2vfyLn1hvq8I80yD_U8gqJ1tC6" target="_blank">
+            <i class="far fa-edit" style="color:#2c3e50"></i>
+            <label style="color:#2c3e50">Apresentação!</label>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Contato</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+            <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+            <form name="sentMessage" id="contactForm" novalidate="novalidate" action="#">
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Nome</label>
+                  <input class="form-control" id="name" type="text" placeholder="Nome" required="required" data-validation-required-message="Por favor informe seu nome." name="name">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Email</label>
+                  <input class="form-control" id="email" type="email" placeholder="Email" required="required" data-validation-required-message="Por favor informe seu endereço de email." name="email" name="email">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Telefone</label>
+                  <input class="form-control" id="phone" type="tel" placeholder="Telefone" required="required" data-validation-required-message="Por favor informe seu Telefone." name="phone">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Assunto</label>
+                  <input class="form-control" id="assunto" type="assunto" placeholder="Assunto" required="required" data-validation-required-message="Por favor informe o Assunto." name="assunto">
+                  <p class="help-block text-danger"></p>
+                </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Mensagem</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Mensagem" required="required" data-validation-required-message="Por favor insira uma mensagem." name="message"></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div id="success"></div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton" onclick="valores()">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Localização</h4>
+            <p class="lead mb-0">Avenida Conselheiro Carrão
+              <br>Vila Carrão, 03403-002 </p>
+          </div>
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Redes sociais</h4>
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/mila.santos.391" target="_blank">
+                  <i class="fab fa-fw fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.instagram.com/camyssants/" target="_blank">
+                  <i class="fab fa-fw fa-instagram"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/csantos947" target="_blank">
+                 <i class="fab fa-github-alt"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/camila-santos-6b067312b/" target="_blank">
+                  <i class="fab fa-fw fa-linkedin-in"></i>
+                </a>
+              </li>
+             <!-- <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fab fa-fw fa-dribbble"></i>
+                </a>
+              </li>-->
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4 class="text-uppercase mb-4">Freelancer</h4>
+            <p class="lead mb-0"style="text-align:justify;">"Me disponibilizo para trabalhos freelancer para desenvolvimento de Sites Front-ends personalizados incluíndo a hospedagem do mesmo. Tenho habilidade com ferramentas de Designer como (Photoshop c7, corel draw e Ilustrator)."
+			<br>
+			 <a href="https://csantos947.github.io/Curriculoweb/"> By: Camila Santos</a>.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small style="color:#fff!important;">Copyright &copy; Csantos 2019</small>
+      </div>
+    </div>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">blog informal</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/cvweb.gif" alt="">
+              <p class="mb-5">O site foi criado para uso pessoal apenas para treinar minhas habilidades , o mesmo foi desenvolvido sem uso de templates , utilizando as linguagens Html5, css e Javascript. O mesmo ainda está em fase de manutenção para atribuir algumas funcionalidades com a linguagem PHP.</p>
+              <a href="https://curriculoweb.000webhostapp.com/index.html" target="_blank" style="color:#EFC8E7; background-color: #fff; border:1px solid #000;padding: 10px;border-radius: 50px; font-weight: bold; ">
+                <i class="fa fa-close"></i>
+                Visualizar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Curriculo web</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/cvweb2.gif" alt="">
+              <p class="mb-5">O site front end foi desenvolvido com base em um template bootstrap , personalizado através da linguagem html5 e css3.</p>
+              <a href="https://csantos947.github.io/Curriculoweb/" target="_blank" style="color:#EFC8E7; background-color: #fff; border:1px solid #000;padding: 10px;border-radius: 50px; font-weight: bold; ">
+                <i class="fa fa-close"></i>
+                Visualizar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Tecnologia</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/empresati.gif" alt="">
+              <p class="mb-5" style="text-align: left;">Projeto Desenvolvido:(navbar , slide , section principal e imagem lateral):<br>
+                              Tempo do desenvolvimento:<br>
+                              Estrutura HTML : 20 min<br>
+                              Layout css : 3h30<br>
+                              Slide em html e css : 30 min<br>
+                              Medias query: 5h00<br>
+                              Desenvolvimento das medias querys para sites responsivos está sendo aprimorado conforme atualizações.</p>
+              <a href="https://csantos947.github.io/processoseletivo/" target="_blank" style="color:#EFC8E7; background-color: #fff; border:1px solid #000;padding: 10px;border-radius: 50px; font-weight: bold; ">
+                <i class="fa fa-close"></i>
+                Visualizar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Visualizar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Visualizar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Visualizar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
+
+  </body>
+
+</html>
